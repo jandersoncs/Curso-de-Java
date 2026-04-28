@@ -1,0 +1,16 @@
+package main.java.construtores;
+
+public class Main {
+    static void main(String[] args) {
+        Funcionarios joao = new Funcionarios("Joao", "Analista de Sistemas", 25);
+        joao.imprimir();
+        Funcionarios maria = new Funcionarios();
+        maria.nome = "Maria";
+        maria.cargo = "Analista de Marketing";
+        maria.idade = 22;
+        maria.imprimir();
+
+
+        }
+    }
+
